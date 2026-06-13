@@ -161,7 +161,7 @@ export default function SignupForm() {
               disabled={status === 'loading'}
               aria-busy={status === 'loading'}
             >
-              {status === 'loading' ? 'Sending…' : 'Join the Waitlist →'}
+              {status === 'loading' ? 'Sending…' : 'Try Out V1 Now →'}
             </button>
 
             <p className="form-fine-print">
