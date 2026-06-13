@@ -139,15 +139,35 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 
 .hero-title {
-  font-size: clamp(3.2rem, 15vw, 9rem);
   font-weight: 800;
   letter-spacing: -0.025em;
-  line-height: 0.92;
   color: var(--white);
   margin-bottom: 28px;
   text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
 }
-.hero-title .accent { color: var(--green); }
+
+/* "Measure." and "Estimate." — slightly smaller than the app name */
+.hero-tagline-line {
+  font-size: clamp(2rem, 9vw, 5.5rem);
+  line-height: 0.95;
+  color: var(--white);
+}
+
+/* "Gutter Done." — larger + bordered badge treatment */
+.hero-app-name {
+  font-size: clamp(3rem, 14vw, 8.5rem);
+  color: var(--green);
+  border: 3px solid var(--green);
+  padding: 0.05em 0.22em 0.14em;
+  border-radius: 10px;
+  line-height: 1.0;
+  display: inline-block;
+  margin-top: 10px;
+}
 
 .hero-copy {
   font-size: clamp(0.95rem, 2.5vw, 1.1rem);

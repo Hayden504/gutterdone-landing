@@ -20,7 +20,7 @@ export default function Nav() {
         className="nav-cta"
         onClick={() => trackEvent('cta_click', { location: 'nav' })}
       >
-        Get Early Access
+        Try Out V1 Now
       </a>
     </nav>
   )

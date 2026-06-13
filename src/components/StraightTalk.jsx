@@ -26,8 +26,8 @@ export default function StraightTalk() {
         </h2>
         <div className="section-divider" />
         <p className="straight-talk-sub">
-          This is v1. We'd rather be upfront about what it is and isn't than
-          oversell it and waste your time.
+          This is v1. Here's what it can and can't do (yet). New features will
+          be added regularly.
         </p>
       </div>
 

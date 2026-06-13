@@ -5,24 +5,20 @@ export default function ProblemSolution() {
         {/* Left: the founding pain point as a quote */}
         <div className="problem-quote">
           <blockquote>
-            "We got tired of quoting jobs on scrap paper and guessing materials.
-            So we built something better."
+            "I got tired of quoting jobs using a spreadsheet and guessing at
+            materials. So I built something better."
           </blockquote>
         </div>
 
         {/* Right: what makes it different */}
         <div className="problem-copy">
-          <span className="eyebrow">Built by Gutter Guys</span>
+          <span className="eyebrow">Built by a Gutter Guy</span>
           <p>
-            Gutter Done wasn't dreamed up in a boardroom. It was built in the field,
-            with the specific headaches of a gutter installation business in mind.
-            No bloat, no features you'll never use — just the stuff that actually
-            matters when you're standing in a customer's driveway.
-          </p>
-          <p style={{ marginTop: '16px' }}>
-            Trade-native job structure, component-level estimating, multiple options
-            per job — the way an actual gutter crew thinks, not the way a software
-            developer imagined it.
+            Gutter Done wasn't dreamed up in a boardroom. I built it from experience
+            in the field — thinking end cap to end cap, outlet to elbow. No bloat,
+            no features I'd never use myself. Just the stuff that matters when
+            you're standing in a customer's driveway, trying not to forget any
+            material or the line items the customer just asked for.
           </p>
         </div>
       </div>

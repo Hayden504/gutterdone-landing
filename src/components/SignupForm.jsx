@@ -65,9 +65,9 @@ export default function SignupForm() {
         <h2 className="section-title">Get on the List</h2>
         <div className="section-divider" />
         <p className="signup-sub">
-          We're rolling out access to a small group first. Drop your info and
-          we'll reach out when a spot opens up. No spam, no newsletters — just
-          one email when you're in.
+          I'm rolling out access to a small group first. Drop your info and
+          you'll be sent a link to download the app. No spam, no newsletters —
+          just one email when you're in.
         </p>
 
         {status === 'success' ? (

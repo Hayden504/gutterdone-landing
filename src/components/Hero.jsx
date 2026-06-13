@@ -9,14 +9,14 @@ export default function Hero() {
         </span>
 
         <h1 className="hero-title">
-          Measure.<br />
-          Estimate.<br />
-          <span className="accent">Gutter Done.</span>
+          <span className="hero-tagline-line">Measure.</span>
+          <span className="hero-tagline-line">Estimate.</span>
+          <span className="hero-app-name">Gutter Done.</span>
         </h1>
 
         <p className="hero-copy">
-          Stop doing estimates in your head or on a notepad.
-          A fast, no-frills tool built by gutter installers — for gutter installers.
+          Ditch the clunky spreadsheet and notepad. Stop doing estimates in your
+          head. A fast, no-frills tool built by a gutter guy — for gutter guys.
         </p>
 
         <a
@@ -24,7 +24,7 @@ export default function Hero() {
           className="hero-cta"
           onClick={() => trackEvent('cta_click', { location: 'hero' })}
         >
-          Join the Waitlist
+          Try Out V1 Now
         </a>
       </div>
 
